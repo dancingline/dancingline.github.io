@@ -1,43 +1,22 @@
-<header>
+<header class="site-header">
+<div class="wrapper">
+<nav class="site-nav">         
+        <span class="menu-bar" onclick="openNav()">
+            <svg id="i-menu" viewBox="0 0 32 32" width="28" height="28" fill="none" stroke="#eee" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%"><path d="M4 8 L28 8 M4 16 L28 16 M4 24 L28 24" /></svg>
+        </span>
+</nav> 
 
-<!-- navbar -->
-  <nav class="navbar navbar-inverse">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
-      <p class="navbar-text">Front-end Dev Engineer</p>
-    </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-
-        {% if page.url == "/index.html" %}
-          <li class="active">
-          {% else %}
-          <li>
-        {% endif %}
-          <a href="{{ site.baseurl }}/"><span class="glyphicon glyphicon-th-large"></span> Blog</a></li>
-
-        {% for p in site.pages %}
-          {% if p.title %}
-            {% if p.url == page.url %}
-              <li class="active">
-              {% else %}
-              <li>
-            {% endif %}
-            <a href="{{ p.url | prepend: site.baseurl }}"><span class="glyphicon {{ p.icon }}"></span> {{ p.title }}</a></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-
+<div class="profile">
+<a href="{{site.baseurl}}/">
+<img class="author-image" alt="site-title" src="{{site.baseurl}}/images/{{site.author.image}}">
+</a>
+<h1 class="author-about">{{site.author.name}}</h1>
+</div>
+<div class="menu-category">
+<div class="menu-item"><a class="{% if page.url == '/design/' %}active{% endif %} menu-link" href="{{site.baseurl}}/design/">Design</a></div>
+<div class="menu-item"><a class="{% if page.url == '/code/' %}active{% endif %}  menu-link" href="{{site.baseurl}}/code/">Code</a></div>
+<div class="menu-item"><a class="{% if page.url == '/life/' %}active{% endif %}  menu-link" href="{{site.baseurl}}/life/">Life</a></div>
+</div>
+</div>
 </header>
+
