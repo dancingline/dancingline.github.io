@@ -1,17 +1,5 @@
 ---
-layout: default
+layout: home
 title: Home
-menu: no
+comments: false
 ---
-<h1 class="page-title">Articles</h1>
-<div class="home">
-<div class="post-list">
-{% for post in site.posts %}
-<a style="text-decoration:none"  href="{{ post.url | prepend: site.baseurl }}">
-      {% include post-cards.html %}
-</a>
-{% endfor %}
-</div>
-</div>
-
-

@@ -1,29 +1,30 @@
-Bheema is a theme suitabel for image heavy journal kind of websites. 
+# Moon Jekyll Theme [![Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/taylantatli/0usd)  
+  
+## `Sorry guys but there will be no update until I buy a new laptop.`
+    
+######(If you like this theme or using it, please give a :star: for motivation.)
 
-Demo: [http://webjeda.com/ashwath/](http://webjeda.com/ashwath/)
+**[Moon](https://taylantatli.github.io/Moon)** is a minimal, one column jekyll theme.
 
+## Features
+* Minimal, you can focus on your content
+* Responsive
+* Disqus integration
+* Syntax highlighting
+* Optional post image
+* Social icons
+* Page for sharing projects
+* Optional background image
+* Simple navigation menu
+* MathJax support
 
-## Installation
-* Fork the repository
-* Go to settings and set Github Pages source as master.
-* Your new site should be ready.
+## Preview
 
+![screenshot of Moon](https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png)    
+![screenshot of Moon](https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png)
 
-## Screenshots
-Default theme:
+See a [live version of Moon](https://taylantatli.github.io/Moon) hosted on GitHub.
 
-![ashwath jekyll theme](http://webjeda.com/ashwath/images/Default.png)
+## Getting Started
 
-Color schemes (Full version)
-
-![ashwath jekyll theme](http://webjeda.com/ashwath/images/Purple.png)
-
-![ashwath jekyll theme](http://webjeda.com/ashwath/images/Blood.png)
-
-![ashwath jekyll theme](http://webjeda.com/ashwath/images/Mango.png)
-
-
-For more themes visit - [https://jekyll-themes.com](https://jekyll-themes.com)
-
-## License
-MIT License
+To learn how to install and use this theme check out the [Setup Guide](https://taylantatli.github.io/Moon/moon-theme/) for more information.
