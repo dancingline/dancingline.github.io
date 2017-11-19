@@ -1,3 +1,15 @@
+---
+layout: post
+title: "Windows进程通信之匿名管道"
+date: 2017-11-19
+excerpt: 
+tags: [Windows, 操作系统]
+feature: 
+comments: false
+---
+
+
+
 #Windows进程通信之匿名管道
 
 最近操作系统上机有个题目，基本要求是用匿名管道实现父子进程之间相互通信，网上搜了一下觉得写得都差不多，并不合意，动手写了一下，觉得有几个坑点需要记一下。
