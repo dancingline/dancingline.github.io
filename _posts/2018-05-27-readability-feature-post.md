@@ -81,7 +81,7 @@ $$
 
 
 $$
-ans_x=\sum_{i=1}^k\alpha_i(p_i-1)
+\begin{equation} ans_x=\sum_{i=1}^k\alpha_i(p_i-1) \end{equation}
 $$
 
 
