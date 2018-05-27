@@ -82,9 +82,13 @@ $$
 \begin{equation} e_1e_2-1-(e_1+e_2-2)=e_1e_2-(e_1+e_2)+1=(e_1-1)(e_2-1)>=0 \end{equation}
 $$
 因此将x分解质因数，$$x=p_1^{\alpha_1}p_2^{\alpha_2}p_3^{\alpha_3} \dots p_k^{\alpha_k}$$，最终结果应该为
+
+
 $$
 \begin{equation} ans_x=\sum_{i=1}^k\alpha_i(p_i-1) \end{equation}
 $$
+
+
 至于最后这道题是分解质因数还是像DP一样去递推就看个人喜好了。
 
 另外有一个非常重要的问题，他这个题，**<u>卡cin！！！</u>**，T了不知道多少发，所以还是换成scanf好了。
