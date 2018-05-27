@@ -59,7 +59,9 @@ comments: false
 
 我们定义num[x]表示生成x个小国需要使用多少次魔法，假设x个小国的状态可以由一个之前的p个小国的状态经过1次魔法二和c(c>=0)次魔法一得到，则有
 $$
-\begin{equation} num[x=(2+c)p] = num[p]+c+1 \end{equation}
+\begin{equation} 
+num[x=(2+c)p] = num[p]+c+1
+\end{equation}
 $$
 我们将1次魔法二和c次魔法一定义为一个基本变换，从初态到终态可以经过若干次基本变换得到，现在问题转换为如何控制基本变换的次数使得最终得到的num[x]最小。通过观察上面的式子我们可以发现求num[x]的过程其实是不断对x进行因式分解，设$$x=e_1e_2e_3 \dots e_k$$ ，则有
 
