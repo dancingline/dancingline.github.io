@@ -8,7 +8,7 @@ feature:
 comments: false
 ---
 
-[题目链接](http://http://acm.xidian.edu.cn/problem.php?id=1287)
+[题目链接](http://acm.xidian.edu.cn/problem.php?id=1287)
 
 ## 题目描述
 
