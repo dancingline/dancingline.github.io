@@ -36,11 +36,11 @@ visual_style["vertex_color"] = ['' for i in range(g.vcount())]
 
 下面贴两张绘制出来的结果，聚类结果不太稳定，在1~4个类之间波动，大部分是2、3个的情况。
 
-<img src="/_posts/img/2018-07-21-1.jpg">
+![](/_posts/img/2018-07-21-1.jpg)
 
-<img src="./img/2018-07-21-2.jpg">
+![](./img/2018-07-21-2.jpg)
 
-<img src="./img/2018-07-21-3.jpg">
+![](./img/2018-07-21-3.jpg)
 
 <img src="./img/2018-07-21-4.jpg">
 
