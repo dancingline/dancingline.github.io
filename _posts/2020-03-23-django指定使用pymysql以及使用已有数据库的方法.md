@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Windows进程通信之匿名管道"
+title: "django指定使用pymysql以及使用已有数据库的方法"
 date: 2020-03-23
 excerpt: 
 tags: [django, mysql, python]
