@@ -8,10 +8,6 @@ feature:
 comments: false
 ---
 
-
-
-# django指定使用pymysql以及使用已有数据库的方法
-
 ## 指定使用pymysql连接数据库
 
 现在django官方建议使用的连接MySQL的方法是mysqlclient，但是直接pip的话会报错，这东西有C的运行库依赖，需要在机器上装一个MySQL，不想装的话就可以指定使用pymysql。
