@@ -84,13 +84,13 @@ vi /etc/mysql/my.cnf
 
 ```
 [client]
-default_character_set=utf8
+default_character_set=utf8mb4
 
 [mysql]
-default_character_set=utf8
+default_character_set=utf8mb4
 
 [mysqld]
-character_set_server=utf8
+character_set_server=utf8mb4
 ```
 
 保存后，重启MySQL的服务，然后可以登录MySQL，用下面的命令查看字符集
@@ -100,16 +100,16 @@ mysql> show variables like '%char%';
 +--------------------------+----------------------------+
 | Variable_name            | Value                      |
 +--------------------------+----------------------------+
-| character_set_client     | utf8                       |
-| character_set_connection | utf8                       |
-| character_set_database   | utf8                       |
+| character_set_client     | utf8mb4                    |
+| character_set_connection | utf8mb4                    |
+| character_set_database   | utf8mb4                    |
 | character_set_filesystem | binary                     |
-| character_set_results    | utf8                       |
-| character_set_server     | utf8                       |
+| character_set_results    | utf8mb4                    |
+| character_set_server     | utf8mb4                    |
 | character_set_system     | utf8                       |
 | character_sets_dir       | /usr/share/mysql/charsets/ |
 +--------------------------+----------------------------+
-8 rows in set (0.01 sec)
+8 rows in set (0.00 sec)
 ```
 
 #### 开启日志
