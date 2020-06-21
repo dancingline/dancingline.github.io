@@ -8,10 +8,6 @@ feature:
 comments: false
 ---
 
-
-
-# ubuntu安装MySQL及配置
-
 之前一直用的Cent OS，第一次用Ubuntu做服务器装MySQL，记录一下。
 
 ### 环境
