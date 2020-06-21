@@ -30,7 +30,7 @@ sudo dpkg -i mysql-apt-config_0.8.14-1_all.deb
 
 会弹出一个比较图形化的配置界面
 
-<img src='./img/批注 2019-11-21 174134.png' align=center width = 80% height = 80%>
+<img src='https://dle.oss-cn-beijing.aliyuncs.com/18-7-21/%E6%89%B9%E6%B3%A8%202019-11-21%20174134.png' align=center width = 80% height = 80%>
 
 在第一个里面选择版本，比如5.7，然后选择OK。
 
