@@ -50,7 +50,11 @@ PaddleHub是基于飞桨生态的一系列预训练好了的模型，可以在�
 
 处理后的成品视频（本人抠图水平一般，带有白边属于正常情况，不影响观看）：
 
-<video src="https://dle.oss-cn-beijing.aliyuncs.com/18-7-21/result%20%283%29.mp4" width=50% height=50%></video>
+<div class="vid-wrap">
+    <video controls autoplay loop>
+	<source src="https://dle.oss-cn-beijing.aliyuncs.com/18-7-21/result%20%283%29.mp4" type="video/mp4">
+    </video>
+</div>
 
 ##### 5、其它
 
